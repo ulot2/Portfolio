@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0B0C10;
+}
+
+#navbar {
+    background-color: #66FCF1;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    padding: 5px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+ul > li > a:hover {
+    color: green;
+    background-color: transparent;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.illustration {
+    max-width: 375px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #C5C6C7;
+}
+
+.texts {
+    text-align: center;
+}
+
+.texts > p {
+    color: #66fcf1;
+    font-style: italic;
+}
+
+/* STYLING THE PROJECT SECTION */
+
+#projects {
+    background-color: #1F2833;
+    width: 100%;
+    height: 53rem;
+}
+
+.projects-section-header {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.projects-grid > a {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.projects-grid > a > img {
+    width: 200px;
+    margin-bottom: -5px;
+}
+
+a > p {
+    background-color: #424345;
+    color: white;
+    font-size: 0.9em;
+    width: 200px;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+.show-all {
+    text-align: center;
+    background-color: #66fcf1;
+    width: 90px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.show-all:hover {
+    background-color: #C5C6C7;
+}
+
+#contacts {
+    height: 80vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-section-header > h2 {
+    color: rgb(224, 221, 221);
+}
+
+.contact-section-header > p {
+    color: #818283;
+    font-style: italic;
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+
+.fab, .fas {
+    color: white;
+    margin: 5px;
+}
+
+.fa-chevron-right {
+    color: black;
+    margin: 0;
+}
+
+.contact-links > a {
+    color: rgb(196, 192, 192);
+    font-size: smaller;
+}
+
+.contact-links > a:hover {
+    color: rgb(238, 231, 231);
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 2px solid #66FCF1;
+    height: 10vh;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width:769px) {
+    #welcome-section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .illustration {
+        width: 370px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #projects {
+        height: 65rem;
+    }
+
+    .projects-section-header {
+        font-size: 40px;
+    }
+
+    .projects-grid > a {
+        width: 28%;
+        margin-bottom: 20px;
+        margin: 30px;
+    }
+    
+    .projects-grid > a > img {
+        width: 100%;
+        margin-bottom: -5px;
+    }
+
+    a > p {
+        width: 100%;
+        height: 30x;
+    }
+
+    .contact-section-header > h2 {
+        font-size: 40px;
+    }
+
+}
