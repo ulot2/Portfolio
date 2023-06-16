@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./Navbar";
+import Sidelinks from "./Sidelinks";
+import About from "./pages/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <Navbar />
+      <Sidelinks />
+      <div className="intro">
+        <h6>Hi, my name is</h6>
+        <h1>Toluwalope Adegoke.</h1>
+        <h1>I build things for the web.</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hey there and welcome to my portfolio website! I'm a web developer
+          with a knack for creating awesome online experiences. From
+          eye-catching designs to seamless functionality, I've got you covered.
+          Check out my latest projects to see my skills in action and let's
+          bring your online vision to life! Shoot me a message and let's get
+          started.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </div>
+      <About />
+    </>
   );
 }
 
