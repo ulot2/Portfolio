@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Sidelinks from "./Sidelinks";
 import About from "./pages/About";
+import { Projects } from "./pages/Projects";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </p>
       </div>
       <About />
+      <Projects />
     </>
   );
 }
