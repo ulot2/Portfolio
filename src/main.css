@@ -9,7 +9,7 @@
 body {
   background-color: #0b182f;
   font-family: "Amaranth", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .navbar {
