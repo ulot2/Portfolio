@@ -11,11 +11,7 @@ const Navbar = () => {
             dev<span>Tolu</span>
           </h3>
         </div>
-        <div
-          className={`${
-            showLinks ? "links-container show-container" : "links-container"
-          }`}
-        >
+        <div className={`links-container ${showLinks && "show-container"}`}>
           <ul className="nav-links">
             <li>
               <span>00.</span>About

@@ -84,6 +84,41 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="ppp">
+        <div>
+          <a
+            href="https://dictionary-app-coral.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="container dictionary"></div>
+          </a>
+        </div>
+        <div className="okay">
+          <a href="https://dictionary-app-coral.vercel.app/">Dictionary App</a>
+          <p>
+            A dictionary web application that allows users to see different
+            <span> definitions</span> of any word
+          </p>
+          <p>React js</p>
+          <div className="links">
+            <a
+              href="https://github.com/ulot2/dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <TbBrandGithub />
+            </a>
+            <a
+              href="https://dictionary-app-coral.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MdOpenInNew />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
