@@ -1,6 +1,8 @@
 import React from "react";
 import { TbBrandGithub } from "react-icons/tb";
 import { MdOpenInNew } from "react-icons/md";
+import { AiOutlineFolder } from "react-icons/ai";
+import { BiLinkExternal } from "react-icons/bi";
 
 export const Projects = () => {
   return (
@@ -118,6 +120,196 @@ export const Projects = () => {
             </a>
           </div>
         </div>
+      </div>
+
+      <div className="other-projects">
+        {/* <h1>Other projects</h1> */}
+        <a href="_" className="project-link">
+          <div className="pro">
+            <div>
+              <div className="links links-flex">
+                <AiOutlineFolder className="folder" />
+                <div>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub />
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BiLinkExternal />
+                  </a>
+                </div>
+              </div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                eaque eos delectus sunt ipsa aliquid!
+              </p>
+              <p>React</p>
+            </div>
+          </div>
+        </a>
+        <a href="_" className="project-link">
+          <div className="pro">
+            <div>
+              <div className="links links-flex">
+                <AiOutlineFolder className="folder" />
+                <div>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub />
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BiLinkExternal />
+                  </a>
+                </div>
+              </div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                eaque eos delectus sunt ipsa aliquid!
+              </p>
+              <p>React</p>
+            </div>
+          </div>
+        </a>
+        <a href="_" className="project-link">
+          <div className="pro">
+            <div>
+              <div className="links links-flex">
+                <AiOutlineFolder className="folder" />
+                <div>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub />
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BiLinkExternal />
+                  </a>
+                </div>
+              </div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                eaque eos delectus sunt ipsa aliquid!
+              </p>
+              <p>React</p>
+            </div>
+          </div>
+        </a>
+        <a href="_" className="project-link">
+          <div className="pro">
+            <div>
+              <div className="links links-flex">
+                <AiOutlineFolder className="folder" />
+                <div>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub />
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BiLinkExternal />
+                  </a>
+                </div>
+              </div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                eaque eos delectus sunt ipsa aliquid!
+              </p>
+              <p>React</p>
+            </div>
+          </div>
+        </a>
+        <a href="_" className="project-link">
+          <div className="pro">
+            <div>
+              <div className="links links-flex">
+                <AiOutlineFolder className="folder" />
+                <div>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub />
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BiLinkExternal />
+                  </a>
+                </div>
+              </div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                eaque eos delectus sunt ipsa aliquid!
+              </p>
+              <p>React</p>
+            </div>
+          </div>
+        </a>
+        <a href="_" className="project-link">
+          <div className="pro">
+            <div>
+              <div className="links links-flex">
+                <AiOutlineFolder className="folder" />
+                <div>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub />
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BiLinkExternal />
+                  </a>
+                </div>
+              </div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                eaque eos delectus sunt ipsa aliquid!
+              </p>
+              <p>React</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   );
