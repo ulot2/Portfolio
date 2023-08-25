@@ -16,9 +16,9 @@ const Navbar = () => {
             <li>
               <span>00.</span>About
             </li>
-            {/* <li>
+            <li>
               <span>01.</span>Experience
-            </li> */}
+            </li>
             <li>
               <span>01.</span>Work
             </li>
