@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Project 1",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "link": "https://example.com/project1",
+    "githubLink": "https://github.com/project1",
+    "externalLink": "https://example.com/external-link1"
+  },
+  {
+    "title": "Project 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "link": "https://example.com/project2",
+    "githubLink": "https://github.com/project2",
+    "externalLink": "https://example.com/external-link2"
+  },
+  {
+    "title": "Project 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "link": "https://example.com/project2",
+    "githubLink": "https://github.com/project2",
+    "externalLink": "https://example.com/external-link2"
+  },
+  {
+    "title": "Project 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "link": "https://example.com/project2",
+    "githubLink": "https://github.com/project2",
+    "externalLink": "https://example.com/external-link2"
+  }
+]

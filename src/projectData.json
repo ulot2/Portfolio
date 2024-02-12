@@ -1,0 +1,34 @@
+[
+  {
+    "title": "IP Address Tracker",
+    "description": "The IP Address Tracker is a web application that allows users to track and visualize the location of IP addresses.",
+    "technologies": "React js",
+    "liveLink": "https://track-your-ipaddress.netlify.app/",
+    "githubLink": "https://github.com/ulot2/ip_address_tracker_",
+    "imgLink": "./images/ip.jpg"
+  },
+  {
+    "title": "Weather App",
+    "description": "The weather app is a web application that allows users to see realtime weather updates for any location.",
+    "technologies": "React js",
+    "liveLink": "https://t-weather-app.netlify.app/",
+    "githubLink": "https://github.com/ulot2/weather_app",
+    "imgLink": "./images/weather.png"
+  },
+  {
+    "title": "Dictionary App",
+    "description": "A dictionary web application that allows users to see different definitions of any word.",
+    "technologies": "React js",
+    "liveLink": "https://dictionary-app-coral.vercel.app/",
+    "githubLink": "https://github.com/ulot2/dictionary-app",
+    "imgLink": "./images/dictionary.png"
+  },
+  {
+    "title": "Age Calculator",
+    "description": "Age Calculator: Instantly know your age in seconds. Simple, fast, and accurate.",
+    "technologies": "React js",
+    "liveLink": "https://age-calculator-green-chi.vercel.app/",
+    "githubLink": "https://github.com/ulot2/age-calculator",
+    "imgLink": "./images/age.jpg"
+  }
+]
