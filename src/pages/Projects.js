@@ -13,9 +13,11 @@ export const Projects = () => {
         </h1>
         <hr />
       </div>
-      {projectData.map((project, index) => (
-        <MainProjectsCard key={index} project={project} />
-      ))}
+      <div>
+        {projectData.map((project, index) => (
+          <MainProjectsCard key={index} project={project} />
+        ))}
+      </div>
 
       <h4>Other noteworthy projects</h4>
       <div className="other-projects">
