@@ -20,10 +20,10 @@ const Contact = () => {
         </a>
         <p>You can also get in touch via:</p>
         <div>
-          <a href="www.twitter.com">
+          <a href="https://github.com/ulot2" target="_">
             <TbBrandGithub />
           </a>
-          <a href="www.twitter.com" target="_">
+          <a href="https://instagram.com/tnuell/" target="_">
             <AiOutlineInstagram />
           </a>
           <a href="www.twitter.com">

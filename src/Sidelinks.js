@@ -9,10 +9,10 @@ const Sidelinks = () => {
     <>
       <div className="sidelinks">
         <div className="socials">
-          <a href="www.twitter.com">
+          <a href="https://github.com/ulot2">
             <TbBrandGithub />
           </a>
-          <a href="www.twitter.com" target="_">
+          <a href="https://instagram.com/tnuell/" target="_">
             <AiOutlineInstagram />
           </a>
           <a href="www.twitter.com">
